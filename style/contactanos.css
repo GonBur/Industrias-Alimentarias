@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*codigo cabecera*/
+#container_cabecera{
+    position: relative;
+}
+.texto_centrar{
+    position: absolute;
+    top: 15%;
+    width: 45%;
+}
+.texto_centrar h1{
+    font-size: 5vw;
+    text-align: center;
+    margin: 0.5%;
+    color: blue;
+    text-shadow: 3px 3px 3px rgb(249, 137, 137);
+}
+.logo img{
+    width: 100%;
+}
+
+
+
+/*BOTON DE NAVEGACION*/
+
+nav{
+    text-align: center;
+    margin: 7% 0%;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2.5vw;
+    padding: 12px;
+    color: rgba(0, 0, 255, 0.826);
+    border: 0.5vw solid black;
+    background-color: #C0F8A9;
+    text-shadow: 3px 3px 3px white;
+} 
+nav a:hover{
+    background-color: white;
+    color: green;
+}
+
+/*contenido*/
+#formulario_conteiner{
+    background-color: #d2fcc0;
+    overflow: hidden;
+}
+.enviar_mensaje{
+    text-align: center;
+    margin: 7% 20% 2%;
+    background-color: #a7ff85d7;
+    font-size: 5vw;
+    border-radius: 5vw;
+    text-shadow: 2px 2px 2px blue;
+}
+.formulario{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 5%;
+}
+.formulario h2{
+    font-size: 3vw;
+    color: #008037;
+    margin-bottom: 5%;
+}
+.formulario label{
+    font-size: 2.5vw;
+   
+}
+.formulario input{
+    width: 80%;
+    height: 5vw;
+    font-size: 2.5vw;
+    border-radius: 1.5vw;
+    margin-bottom: 4vw;
+    padding-left: 15px;
+}
+#mensaje{
+    height: 15vw;
+}
+.enviar{
+    background-color: #008037;
+    margin-top: 5%;
+    color: white;
+}
+.enviar:hover{
+    background-color: white;
+    color: black;
+}
+
+/*PARTE 02*/
+.segundaParte_formulario{
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 10%;
+}
+.segundaParte_formulario h3{
+    font-size: 3vw;
+    color: #008037;
+}
+.segundaParte_formulario h4{
+    font-size: 2.5vw;
+    margin: 5%;
+}
+.segundaParte_formulario p{
+    font-size: 2vw;
+}
+
+.segundaParte_formulario img{
+    margin-top: 15%;
+    width: 90%;
+}
+
+/*PIE DE PAGINA*/
+#pagina_final{
+    background-color: #C0F8A9;
+    overflow: hidden;
+    margin-top: 5%;
+    padding-bottom: 3%;
+}
+
+.div_footer01{
+    float: left;
+    width: 50%;
+}
+.div_footer01 h2{
+    font-size: 3vw;
+    padding: 5%;
+    text-align: center;
+}
+.div_footer01 p{
+    font-size: 2vw;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+.div_footer02{
+    float: right;
+    width: 49%;
+}
+.div_footer02 h3{
+    font-size: 3vw;
+    text-align: center;
+    padding: 5%;
+    color: #5271FF;
+}
+.div_footer02 img{
+    margin-right: 5%;
+    width: 10%;
+}
+.imagen01 img{
+    margin-left: 20%;
+    width: 11%;
+}
